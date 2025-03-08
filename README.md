@@ -26,7 +26,7 @@ This repository contains implementations for training neural networks with RLWE-
 ## Installation
 Ensure you have the required dependencies installed:
 ```bash
-pip install tensorflow pandas
+pip install numpy tensorflow pandas
 ```
 
 ## Usage
@@ -51,13 +51,6 @@ python FL_with_CPAD_perturbation.py
 python krum_sgd_mnist.py
 ```
 
-## Future Work
-- Extending RLWE-like perturbations to other model architectures.
-- Exploring different aggregation strategies to mitigate perturbation effects.
-- Evaluating the impact of perturbations on fairness and robustness.
-
-## Citation
-If you use this repository in your work, please cite appropriately.
 
 ## License
 This project is licensed under the MIT License.
